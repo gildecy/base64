@@ -4,11 +4,6 @@ download.addEventListener('click',downloadFile);
 output.addEventListener('input',previewText);
 
 
-// abaixo são criada 3 funções 
-//previewFile,downloaFile ,
-//função para base64.
-
-
 function previewFile({target}){
 
     const file = target.file[0];
