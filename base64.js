@@ -8,6 +8,7 @@ output.addEventListener('input',previewText);
 //previewFile,downloaFile ,
 //função para base64.
 
+
 function previewFile({target}){
 
     const file = target.file[0];
