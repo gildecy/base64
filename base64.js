@@ -1,7 +1,7 @@
  <script>
         file.addEventListener('change',previewFile);
-download.addEventListener('click',downloadFile);
-output.addEventListener('input',previewText);
+       download.addEventListener('click',downloadFile);
+       output.addEventListener('input',previewText);
 
 
 function previewFile({target}){
