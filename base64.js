@@ -25,7 +25,7 @@ function downloadFile (){
      link.click();
 }
 
-// essa função busca a imagem da função downloadfile e converte na base64
+// essa função busca a imagem da função downloadfile e converte na base64.
 function previewText({target}) {
     let base64 = target.value.replace(/^data:image\/[a-z]+;base64,/,"");
     preview.src = `data:image/png;base64,${base64}`;
